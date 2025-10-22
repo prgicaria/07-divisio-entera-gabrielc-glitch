@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="GabrielCasademuntAle"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-10-22 10:40:02 "/>
+        <attribute name="created" value="R2FicmllbENhc2FkZW11bnRBbGU7RURVQVI5MTFIQkcyOzIwMjUtMTAtMjI7IjEwOjI3OjIyICI7Mzk2Mw=="/>
+        <attribute name="edited" value="R2FicmllbENhc2FkZW11bnRBbGU7RURVQVI5MTFIQkcyOzIwMjUtMTAtMjI7IjEwOjQwOjAyICI7Mjs0MDY1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Divisor, Dividend, Divisi&#243;, Quocient, Residu" type="Integer" array="False" size=""/>
+            <input variable="Dividend"/>
+            <input variable="Divisor"/>
+            <assign variable="Quocient" expression="Dividend / Divisor"/>
+            <assign variable="Residu" expression="Dividend % Divisor"/>
+            <output expression="&quot;Divisi&#243;&quot; = Dividend / Divisor" newline="True"/>
+            <output expression="&quot;Quocient&quot; = Quocient" newline="True"/>
+            <output expression="&quot;Residu&quot; = Residu" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
